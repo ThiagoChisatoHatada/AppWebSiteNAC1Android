@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/btmercadolivre"
+                android:layout_width="364dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:background="@null"
+                android:onClick="mercadolivre"
+                android:src="@drawable/mercadolivree" />
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/btbuscape"
+                android:layout_width="364dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:background="@null"
+                android:src="@drawable/buscape" />
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/bteBay"
+                android:layout_width="364dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:background="@null"
+                android:src="@drawable/ebay" />
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/btwebmotors"
+                android:layout_width="364dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:background="@null"
+                android:src="@drawable/webmotors" />
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/btmagalu"
+                android:layout_width="364dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:background="@null"
+                android:src="@drawable/magalu" />
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/btnetShoes"
+                android:layout_width="364dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:background="@null"
+                android:src="@drawable/netshoes" />
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/btamericanas"
+                android:layout_width="364dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:background="@null"
+                android:src="@drawable/americanas" />
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/btsubmarino"
+                android:layout_width="364dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:background="@null"
+                android:src="@drawable/submarino" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btsobre"
+                android:layout_width="364dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:background="@null"
+                android:text="Sobre"
+                android:textSize="30sp"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>
